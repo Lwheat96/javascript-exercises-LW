@@ -1,13 +1,12 @@
 const reverseString = function() {
-  let str = 'hello';
-    for (let i = 0; i < str.length; i++) {
+  let str = '';
+   // for (let i = 0; i < str.length; i++) {
       let strReverse = str.split("");
         strReverse.reverse();
       let strR = strReverse.toString() 
-        strR.concat();
-        str.replaceAll(",", "");
-      return strR;
-    }
+      let strReplace = strR.replaceAll(",", "");
+      return strReplace;
+    //}
   
 };
 
