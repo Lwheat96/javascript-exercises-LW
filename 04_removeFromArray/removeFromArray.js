@@ -1,9 +1,8 @@
 const removeFromArray = function(array) {
- const newArray = array.pop([]);
- return array;
+    return array;
 };
 
-removeFromArray([1, 2, 3, 4], 3);
+removeFromArray([1, 2, 3, 4]);
 
 // Do not edit below this line
 module.exports = removeFromArray;
