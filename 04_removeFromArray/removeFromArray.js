@@ -1,10 +1,11 @@
-const removeFromArray = function(array) {
+const removeFromArray = function(array, object) {
     // need a new variable called newArray. Need an if statement.
-    const newArray = array.toSpliced(2,1)
+    const newArray = array.toSpliced();
     return newArray;
-};
-
-removeFromArray([1, 2, 3, 4]);
+  };
+  
+ removeFromArray([1, 2, 3, 4], 3);
+//How can I use a loop to figure this problem out..
 
 // Do not edit below this line
 module.exports = removeFromArray;
