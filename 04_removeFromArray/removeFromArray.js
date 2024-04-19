@@ -1,6 +1,6 @@
-const removeFromArray = function(array, object) {
+const removeFromArray = function(object, ...array) {
     // need a new variable called newArray. Need an if statement.
-    const newArray = array.toSpliced();
+    const newArray = array.toSpliced(object);
     return newArray;
   };
   
