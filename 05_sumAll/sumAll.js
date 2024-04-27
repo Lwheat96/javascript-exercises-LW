@@ -1,4 +1,20 @@
-let i;
+const sumAll = function(number) {
+    let x ;
+    let total = 0;
+    while (number < x) {
+        number++;
+        number += total;
+        console.log(total);
+    };
+sumAll(1, 4);
+};
+
+
+/* I want to set two numbers. Then I want a loop to count through the number between them, while adding it to the previous value...
+
+*/
+
+/*let i;
 let number;
 
 const sumAll = function(i, number) {
@@ -16,6 +32,6 @@ const sumAll = function(i, number) {
     }
   }
   console.log(sumAll(2, 4));
-
+*/
 // Do not edit below this line
 module.exports = sumAll;
