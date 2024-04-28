@@ -1,5 +1,5 @@
 const sumAll = function(number, x) {
-  let total;
+  let total = number + x;
   for (number; number <= x; number++) {
     number + x == total;
   };
