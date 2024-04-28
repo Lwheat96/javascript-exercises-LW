@@ -1,11 +1,9 @@
-const sumAll = function(number) {
-    let x ;
-    let total = 0;
-    while (number < x) {
-        number++;
-        number += total;
-        console.log(total);
-    };
+const sumAll = function(number, x) {
+  let total;
+  for (number; number <= x; number++) {
+    number + x == total;
+  };
+    console.log(total)
 sumAll(1, 4);
 };
 
